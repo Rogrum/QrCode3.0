@@ -18,6 +18,8 @@ h3 {
   align-items: center;
   text-align: center;
   min-height: 100vh;
+  box-sizing: content-box;
+  width: 100%;
 }
 
 #center-screen .qr-code {
@@ -42,8 +44,8 @@ h3 {
   font-size: 15px;
   color: hsl(220, 15%, 55%);
 }
-.footer{
-  font-size: 11px;
+.footer p {
+  font-size: 10px;
 }
 
 .footer a {
