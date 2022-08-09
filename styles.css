@@ -1,16 +1,16 @@
 * {
-    box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: hsl(212, 45%, 89%);
   display: flex;
-  overflow: hidden;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 100vh;
+  overflow: hidden;
+  min-height: 100vh;
+  background-color: hsl(212, 45%, 89%);
 }
 
 p, a {
@@ -21,26 +21,25 @@ h3 {
   font-family: "Outfit-bold", sans-serif;
 }
 
-.qr-code {    
-  background-color: hsl(0, 0%, 100%);
+.qr-card {
+  padding: 15px;
+  max-width: 320px;
   border-radius: 20px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  max-width: 300px;
-  max-height: 450px;
+  background-color: hsl(0, 0%, 100%);
 }
 
-.qr-code .qr-image {
+.qr-card .qr-image{
+  display: block;
+  max-width: 100%;
   border-radius: 10px;
-  width: 90%;
 }
 
-.qr-code .qr-text {
+.qr-card .qr-text {
   display: inline-block;
   max-width: 250px;
 }
 
-.qr-code p {
+.qr-card p {
   font-size: 15px;
   color: hsl(220, 15%, 55%);
 }
