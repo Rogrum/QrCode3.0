@@ -18,8 +18,7 @@ h3 {
   align-items: center;
   text-align: center;
   min-height: 100vh;
-  box-sizing: content-box;
-  width: 100%;
+  box-sizing:border-box;
 }
 
 #center-screen .qr-code {
