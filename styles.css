@@ -21,6 +21,11 @@ h3 {
 }
 
 .qr-code {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+    
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
   padding-top: 15px;
