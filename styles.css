@@ -5,6 +5,12 @@
 body {
   background-color: hsl(212, 45%, 89%);
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
 }
 
 p, a {
@@ -15,14 +21,14 @@ h3 {
   font-family: "Outfit-bold", sans-serif;
 }
 
-#center-screen {
+/* #center-screen {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   min-height: 100vh;
-}
+} */
 
 #center-screen .qr-code {
   background-color: hsl(0, 0%, 100%);
