@@ -36,7 +36,7 @@ h3 {
 
 .qr-card .qr-text {
   display: inline-block;
-  max-width: 250px;
+  width: 250px;
 }
 
 .qr-card p {
