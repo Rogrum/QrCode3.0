@@ -25,8 +25,8 @@ h3 {
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
   padding-top: 15px;
-  width: 300px;
-  height: 450px;
+  max-width: 300px;
+  max-height: 450px;
 }
 
 .qr-code .qr-image {
@@ -36,7 +36,7 @@ h3 {
 
 .qr-code .qr-text {
   display: inline-block;
-  width: 250px;
+  max-width: 250px;
 }
 
 .qr-code p {
