@@ -23,6 +23,7 @@ h3 {
 
 .qr-card {
   padding: 15px;
+  margin: 24px;
   max-width: 320px;
   border-radius: 20px;
   background-color: hsl(0, 0%, 100%);
